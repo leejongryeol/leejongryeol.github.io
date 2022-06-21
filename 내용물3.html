@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>내용물</title>
+</head>
+<style>
+    *{
+        color: rgb(3, 3, 61);
+    }
+    input{
+        color: black;
+    }
+    fieldset{
+        background-color: rgb(163, 50, 50);
+    }
+    legend{
+        background-color: brown;
+        border: solid rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    #RD{
+        color: rgb(68, 177, 95);
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>스토리북 구매</legend>
+        <table border="0" width="400">
+        <tr>
+            <td>판타지</td>
+            <td id="RD">(42000)</td>
+            <td><input type="number"  value="판타지" min="0" max="9"></td>
+        </tr>
+        <tr>
+            <td>무협</td>
+            <td id="RD">(30000)</td>
+            <td><input type="number" value="무협" min="0" max="9"></td>
+        </tr>
+        <tr>
+            <td>포스트 아포칼립스</td>
+            <td id="RD">(24000)</td>
+            <td><input type="number" value="포스트아포칼립스" min="0" max="9"></td>
+        </tr>
+        <tr>
+            <td>크툴루</td>
+            <td id="RD">(120000)</td>
+            <td><input type="number" value="크툴루" min="0" max="9"></td>    
+        </tr>  
+        </table>
+        <input type="submit" value="구매">
+    </fieldset>
+</body>
+</html>
